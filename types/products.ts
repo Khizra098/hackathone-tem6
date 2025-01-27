@@ -5,7 +5,7 @@ export interface Product {
     productImage: {
         _type: 'image',
         asset: {
-          _ref: imageId,
+          _ref: string,
         },
     };
     price: number;
